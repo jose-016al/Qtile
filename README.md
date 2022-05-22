@@ -1,1 +1,48 @@
-Dotfiles
+# MIS DOTFILES QTILE
+
+![Qtile](.screenshots/qtile.png)
+
+# Índice
+
+- [Instalación de Arch Linux](#instalación-de-arch-linux)
+- [Inicio de sesión y gestor de ventanas](#inicio-de-sesión-y-gestor-de-ventanas)
+- [Configuración básica de Qtile](#configuración-básica-de-qtile)
+- [Utilidades básicas del sistema](#utilidades-básicas-del-sistema)
+  - [Fondo de pantalla](#fondo-de-pantalla)
+  - [Fuentes](#fuentes)
+  - [Audio](#audio)
+  - [Monitores](#monitores)
+  - [Almacenamiento](#almacenamiento)
+  - [Redes](#redes)
+  - [Systray](#systray)
+  - [Notificaciones](#notificaciones)
+  - [Xprofile](#xprofile)
+- [Otras configuraciones y herramientas](#otras-configuraciones-y-herramientas)
+  - [AUR helper](#aur-helper)
+  - [Media Transfer Protocol](#media-transfer-protocol)
+  - [Explorador de archivos](#explorador-de-archivos)
+  - [Basura](#basura)
+  - [Tema de GTK](#tema-de-gtk)
+  - [Tema de Qt](#tema-de-qt)
+  - [Qt](#qt)
+  - [Tema de lightdm](#tema-de-lightdm)
+  - [Multimedia](#multimedia)
+    - [Imágenes](#imágenes)
+    - [Vídeo y audio](#vídeo-y-audio)
+  - [Empieza a hackear](#empieza-a-hackear)
+- [Galería](#galería)
+  - [Qtile](#qtile)
+  - [Spectrwm](#spectrwm)
+  - [Openbox](#openbox)
+  - [Xmonad](#xmonad)
+  - [Dwm](#dwm)
+- [Atajos de teclado](#atajos-de-teclado)
+  - [Ventanas](#ventanas)
+  - [Apps](#apps)
+- [Software](#software)
+  - [Utilidades básicas](#utilidades-básicas)
+  - [Fuentes, temas y GTK](#fuentes-temas-y-gtk)
+  - [Apps](#apps-1)
+
+
+# Instalación de Arch Linux
