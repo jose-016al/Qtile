@@ -8,9 +8,9 @@
 
 # Instalacion de Arch Linux
 
-Para la instalacion de Arch Linux es recomendable, tener a mano la **[Wiki de Arch](https://wiki.archlinux.org/index.php/Installation_guide)**
+Para la instalacion de Arch Linux es recomendable tener a mano la **[Wiki de Arch](https://wiki.archlinux.org/title/Installation_guide_(Espa%C3%B1ol))**
 
-#### Cambiamos la distribucion del teclado 
+Cambiamos la distribucion del teclado 
 ```bash
 loadkeys es
 ```
@@ -18,336 +18,185 @@ Nos aseguramos de tener acceso a internet, ya sea por LAN, si no es el caso ejec
 ```bash
 iwctl...
 ```
-#### 
+Listamos el contenido del directorio efivars, para comprobar la modalidad de arranque del sistema, UEFI o BIOS
 ```bash
-
-```
-####
-```bash
-
+ls /sys/firmware/efi/efivars
 ```
-####
+Actualizamos el reloj del sistema
 ```bash
-
+timedatectl set-ntp true
 ```
-####
+Particionamos el disco usando cfdisk  
+    - 150MB - EFI SYSTEM  
+    - 15GB - SWAP  
+    - 50GB - /  
+    - RESTO - HOME  
 ```bash
-
+cfdisk
 ```
-####
+Podemos ver el estado de nuestras particiones
 ```bash
-
+lsblk
 ```
-####
+Formateamos las particiones
 ```bash
-
+mkfs.ext4 /dev/sda3
 ```
-####
-```bash
-
+``bash
+mkfs.ext4 /dev/sda4
 ```
-####
-```bash
 
-```
-####
 ```bash
 
 ```
-####
-```bash
 
-```
-####
 ```bash
 
 ```
-####
-```bash
 
-```
-####
 ```bash
 
 ```
-####
-```bash
 
-```
-####
 ```bash
 
 ```
-####
-```bash
 
-```
-####
 ```bash
 
 ```
-####
-```bash
 
-```
-####
 ```bash
 
 ```
-####
-```bash
 
-```
-####
 ```bash
 
 ```
-####
-```bash
 
-```
-####
 ```bash
 
 ```
-####
-```bash
 
-```
-####
 ```bash
 
 ```
-####
-```bash
 
-```
-####
 ```bash
 
 ```
-####
-```bash
 
-```
-####
 ```bash
 
 ```
-####
-```bash
 
-```
-####
 ```bash
 
 ```
-####
-```bash
 
-```
-####
 ```bash
 
 ```
-####
-```bash
 
-```
-####
 ```bash
 
 ```
-####
-```bash
 
-```
-####
 ```bash
 
 ```
-####
-```bash
 
-```
-####
 ```bash
 
 ```
-####
-```bash
 
-```
-####
 ```bash
 
 ```
-####
-```bash
 
-```
-####
 ```bash
 
 ```
-####
-```bash
 
-```
-####
 ```bash
 
 ```
-####
-```bash
 
-```
-####
 ```bash
 
 ```
-####
-```bash
 
-```
-####
 ```bash
 
 ```
-####
-```bash
 
-```
-####
 ```bash
 
 ```
-####
-```bash
 
-```
-####
 ```bash
 
 ```
-####
-```bash
 
-```
-####
 ```bash
 
 ```
-####
-```bash
 
-```
-####
 ```bash
 
 ```
-####
-```bash
 
-```
-####
 ```bash
 
 ```
-####
-```bash
 
-```
-####
 ```bash
 
 ```
-####
-```bash
 
-```
-####
 ```bash
 
 ```
-####
-```bash
 
-```
-####
 ```bash
 
 ```
-####
-```bash
 
-```
-####
 ```bash
 
 ```
-####
-```bash
 
-```
-####
 ```bash
 
 ```
-####
-```bash
 
-```
-####
 ```bash
 
 ```
-####
-```bash
 
-```
-####
 ```bash
 
 ```
-####
-```bash
 
-```
-####
 ```bash
 
 ```
-####
-```bash
 
-```
-####
 ```bash
 
 ```
-####
-```bash
 
-```
-####
 ```bash
 
 ```
-####
-```bash
 
-```
-####
 ```bash
 
 ```
-####
-```bash
 
-```
 
 # Tras la instalacion de Arch Linux
+
 #### paquetes necesarios
 ```bash
 sudo pacman -S 
