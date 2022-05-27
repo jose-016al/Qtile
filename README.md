@@ -38,88 +38,82 @@ Podemos ver el estado de nuestras particiones
 ```bash
 lsblk
 ```
-Formateamos las particiones
+Formateamos las particiones: / y home
 ```bash
 mkfs.ext4 /dev/sda3
 ```
 ``bash
 mkfs.ext4 /dev/sda4
 ```
-
+Formateamos la particion swap
 ```bash
-
+mkswap /dev/sda2
 ```
-
 ```bash
-
+swapon /dev/sda2
 ```
-
+Montamos los sistemas de archivos
 ```bash
-
+mount /dev/sda3 /mnt
 ```
-
 ```bash
-
+mkdir /mnt/home
 ```
-
 ```bash
-
+mount /dev/sda4 /mnt/home
 ```
-
 ```bash
-
+mkdir /mnt/boot
 ```
-
 ```bash
-
+mount /dev/sda1 /mnt/boot
 ```
-
+Instalamos los paquetes necesarios
 ```bash
-
+pacstrap /mnt base linux linux-firmware nano kitty firefox
 ```
-
+Generamos el archivo fstab
 ```bash
-
+genfstab -U /mnt >> /mnt/etc/fstab
 ```
-
+Cambiamos la raiz al nuevo sistema
 ```bash
-
+arch-chroot /mnt
 ```
-
+Definimos la zona horaria
 ```bash
-
+ln -sf /usr/share/zoneinfo/Europe/Madrid /etc/localtime
 ```
-
 ```bash
-
+hwclock --systohc
 ```
-
+Idioma del sistema y teclado
 ```bash
-
+nano /etc/locale.gen
 ```
-
 ```bash
-
+locale.gen
 ```
-
 ```bash
-
+echo "LANG=es_ES.UTF-8" > /etc/locale.conf
 ```
-
 ```bash
-
+echo "KEYMAP=es" > /etc/vconsole.conf
 ```
-
+Configuracion de red
 ```bash
-
+echo "ArhLinux" > /etc/hostname
 ```
-
+Editamos el archivo hosts
 ```bash
-
+nano /etc/hosts
 ```
-
+> 127.0.0.1	localhost  
+> ::1		    localhost  
+> 127.0.1.1	ArchLinux.localhost	ArchLinux    
+Le asignamos contraseña al root
 ```bash
-
+passwd
 ```
 
 ```bash
