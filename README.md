@@ -5,6 +5,7 @@
 # Índice
 
 - [Instalacion de Arch Linux](#instalacion-de-arch-linux)
+- [Tras la instalacion](#tras-la-instalacion)
 
 # Instalacion de Arch Linux
 
@@ -70,7 +71,7 @@ mount /dev/sda1 /mnt/boot
 ```
 Instalamos los paquetes necesarios
 ```bash
-pacstrap /mnt base linux linux-firmware nano kitty firefox
+pacstrap /mnt base linux linux-firmware networkmanager sudo grub efibootmgr nano kitty firefox
 ```
 Generamos el archivo fstab
 ```bash
@@ -111,46 +112,50 @@ nano /etc/hosts
 > 127.0.0.1	localhost  
 > ::1		    localhost  
 > 127.0.1.1	ArchLinux.localhost	ArchLinux    
+
 Le asignamos contraseña al root
 ```bash
 passwd
 ```
-
+Creamos un usuario
 ```bash
-
+useradd -m jose
+```
+```bash
+passwd jose
+```
+```bash
+usermod -aG wheel,video,audio,storage
+```
+tendremos que configurar el archivo sudoers para poder ser root
+```bash
+nano /etc/sudoers
+```
+Iniciamos el servicio de internet
+```bash
+systemctl enable NetworkManager
+```
+COnfiguramos el grub
+```bash
+grub-install -target=x86_64-efi --efi-directory=/boot
+```
+```bash
+grub-mkconfig -o /boot/grub/grub.cfg
+```
+Salimos de la instalacion
+```bash
+exit
+```
+```bash
+umount -R /mnt
+```
+Y reiniciamos el sistema, si nos sale el grub de Arch habra salido todo bien
+```bash
+reboot
 ```
 
-```bash
+# Tras la instalacion
 
-```
-
-```bash
-
-```
-
-```bash
-
-```
-
-```bash
-
-```
-
-```bash
-
-```
-
-```bash
-
-```
-
-```bash
-
-```
-
-```bash
-
-```
 
 ```bash
 
