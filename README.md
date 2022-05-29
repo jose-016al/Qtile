@@ -5,7 +5,12 @@
 # Índice
 
 - [Instalacion de Arch Linux](#instalacion-de-arch-linux)
-- [Tras la instalacion](#tras-la-instalacion)
+- [Tras la instalacion de Arch Linux](#tras-la-instalacion-de-arch-Linux)
+- [Instalacion Qtile](#instalacion-qtile)
+- [Instalacion paquetes necesarios para Qtile](#instalacion-paquetes-necesarios-para-qtile)
+- [Configuracion kitty](#configuracion-kitty)
+- [Configuracion Qtile](#configuracion-qtile)
+
 
 # Instalacion de Arch Linux
 
@@ -154,61 +159,69 @@ Y reiniciamos el sistema, si nos sale el grub de Arch habra salido todo bien
 reboot
 ```
 
-# Tras la instalacion
-
-
-```bash
-
-```
-
-```bash
-
-```
-
-```bash
-
-```
-
-```bash
-
-```
-
-```bash
-
-```
-
-```bash
-
-```
-
-```bash
-
-```
-
-```bash
-
-```
-
-```bash
-
-```
-
-
 # Tras la instalacion de Arch Linux
 
-#### paquetes necesarios
+Instalamos xorg
 ```bash
-sudo pacman -S 
+sudo pacman -S xorg xorg-server
 ```
-
-
-#### Ahora para nuestras carpetas personales básicas (Escritorio, Descargas, Música, Etc.).
-#### Para esto instalamos la herramienta xdg-user-dirs:
+Ahora generamos nuestras carpetas personales básicas (Escritorio, Descargas, Música, Etc.).
+Para esto instalamos la herramienta xdg-user-dirs:
 ```bash
 sudo pacman -S xdg-user-dirs
 ```
-#### Por ultimo lo ejecutamos para que nos genere nuestras carpetas.
+Por ultimo lo ejecutamos para que nos genere nuestras carpetas.
 ```bash
 xdg-user-dirs-update
 ```
 
+# Instalacion Qtile
+
+Instalamos Qtile y el logging manager
+```bash
+sudo pacman -S qtile lightdm lightdm-gtk-greeter
+```
+```bash
+systemctl enable lightdm
+```
+
+# Instalacion paquetes necesarios para Qtile
+
+Instalamos paquetes todos los paquetes 
+```bash
+sudo pacman -S git base-devel rofi feh picom pulseaudio pavucontrol bridghtnessctl xorg-xinit
+```
+Instalamos yay
+```bash 
+git clone https://aur.archlinux.org/yay.git
+```
+```bash
+cd yay
+```
+```bash
+makepkg -si
+```
+Instalamos paquetes con yay
+```bash
+yay -S visual-studio-code-bin 
+```
+
+# Configuracion kitty
+
+# Configuracion Qtile
+
+Copiamos la configuracion de Qtile de github
+```bash
+git clone git@github.com:jose-016al/dotfiles.git
+```
+```bash
+cd dotfiles
+```
+Copiamos el archivo xsession para que los cambios sean permanentes
+```bash
+cp -r .xsession ~/.config/
+```
+Le damos permisos de ejecicion en caso de que no los tenga
+```bash
+chmod u+x .xsession
+```
