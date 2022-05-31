@@ -189,7 +189,7 @@ systemctl enable lightdm
 
 Instalamos paquetes todos los paquetes 
 ```bash
-sudo pacman -S git base-devel rofi feh picom pulseaudio pavucontrol bridghtnessctl xorg-xinit
+sudo pacman -S git base-devel rofi feh picom pulseaudio pavucontrol bridghtnessctl xorg-xinit volumeicon cbatticon udisks2 udiskie ttf-dejavu ttf-liberation noto-fonts ntfs-3g arandr vlc imv scrot unzip lxappearance
 ```
 Instalamos yay
 ```bash 
