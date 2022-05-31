@@ -1,0 +1,6 @@
+2022/05/30-23:29:55.271 c44 Reusing MANIFEST /home/jose/.config/Netflix/Local Storage/leveldb/MANIFEST-000001
+2022/05/30-23:29:55.272 c44 Recovering log #59
+2022/05/30-23:29:55.710 c44 Reusing old log /home/jose/.config/Netflix/Local Storage/leveldb/000059.log 
+2022/05/31-00:12:01.113 c53 Level-0 table #63: started
+2022/05/31-00:12:01.168 c53 Level-0 table #63: 22743 bytes OK
+2022/05/31-00:12:01.204 c53 Delete type=0 #59

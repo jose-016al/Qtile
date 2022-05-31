@@ -1,0 +1,7 @@
+2022/05/18-02:34:54.171 26df Reusing MANIFEST /home/jose/.config/google-chrome/Default/IndexedDB/https_www.nerdfonts.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/05/18-02:34:54.171 26df Recovering log #3
+2022/05/18-02:34:54.171 26df Reusing old log /home/jose/.config/google-chrome/Default/IndexedDB/https_www.nerdfonts.com_0.indexeddb.leveldb/000003.log 
+2022/05/18-02:34:58.340 28fc Level-0 table #5: started
+2022/05/18-02:34:58.373 28fc Level-0 table #5: 1622 bytes OK
+2022/05/18-02:34:58.415 28fc Delete type=0 #3
+2022/05/18-02:34:58.416 28fc Manual compaction at level-0 from (begin) .. (end); will stop at (end)

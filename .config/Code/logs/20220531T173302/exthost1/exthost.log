@@ -1,0 +1,20 @@
+[2022-05-31 17:33:07.801] [exthost] [info] Extension host with pid 16237 started
+[2022-05-31 17:33:07.805] [exthost] [info] Skipping acquiring lock for /home/jose/.config/Code/User/workspaceStorage/fb39603852ef45c087863e2e81a9b86b.
+[2022-05-31 17:33:08.247] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+[2022-05-31 17:33:08.293] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+[2022-05-31 17:33:08.440] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2022-05-31 17:33:08.549] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-05-31 17:33:08.557] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-05-31 17:33:08.565] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-05-31 17:33:08.591] [exthost] [info] ExtensionService#_doActivateExtension naumovs.color-highlight, startup: true, activationEvent: '*'
+[2022-05-31 17:33:09.072] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-05-31 17:33:09.231] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-05-31 17:33:09.696] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+[2022-05-31 17:33:09.760] [exthost] [info] Eager extensions activated
+[2022-05-31 17:33:09.875] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-05-31 17:33:09.909] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-05-31 17:33:09.918] [exthost] [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+[2022-05-31 17:33:09.965] [exthost] [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+[2022-05-31 17:33:10.399] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2022-05-31 17:36:41.615] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 542
+[2022-05-31 17:36:46.900] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 1515

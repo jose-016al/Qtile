@@ -1,0 +1,30 @@
+2022/05/30-23:30:01.875 c53 Reusing MANIFEST /home/jose/.config/Netflix/IndexedDB/https_www.netflix.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/05/30-23:30:01.876 c53 Recovering log #151
+2022/05/30-23:30:02.335 c53 Reusing old log /home/jose/.config/Netflix/IndexedDB/https_www.netflix.com_0.indexeddb.leveldb/000151.log 
+2022/05/30-23:31:03.773 c44 Level-0 table #157: started
+2022/05/30-23:31:03.909 c44 Level-0 table #157: 2182023 bytes OK
+2022/05/30-23:31:03.955 c44 Delete type=0 #151
+2022/05/30-23:33:23.575 c44 Compacting 1@1 + 1@2 files
+2022/05/30-23:33:23.626 c44 Generated table #158@1: 51 keys, 21203 bytes
+2022/05/30-23:33:23.626 c44 Compacted 1@1 + 1@2 files => 21203 bytes
+2022/05/30-23:33:23.665 c44 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/05/30-23:33:23.666 c44 Delete type=2 #157
+2022/05/30-23:33:23.666 c44 Delete type=2 #154
+2022/05/31-00:16:36.930 c53 Level-0 table #160: started
+2022/05/31-00:16:37.072 c53 Level-0 table #160: 2255825 bytes OK
+2022/05/31-00:16:37.110 c53 Delete type=0 #156
+2022/05/31-00:24:04.995 d8d Compacting 1@1 + 1@2 files
+2022/05/31-00:24:05.051 d8d Generated table #161@1: 51 keys, 19756 bytes
+2022/05/31-00:24:05.051 d8d Compacted 1@1 + 1@2 files => 19756 bytes
+2022/05/31-00:24:05.089 d8d compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/05/31-00:24:05.089 d8d Delete type=2 #158
+2022/05/31-00:24:05.089 d8d Delete type=2 #160
+2022/05/31-01:05:02.631 d8d Level-0 table #163: started
+2022/05/31-01:05:02.771 d8d Level-0 table #163: 2211396 bytes OK
+2022/05/31-01:05:02.880 d8d Delete type=0 #159
+2022/05/31-01:08:56.917 c53 Compacting 1@1 + 1@2 files
+2022/05/31-01:08:56.966 c53 Generated table #164@1: 51 keys, 27183 bytes
+2022/05/31-01:08:56.966 c53 Compacted 1@1 + 1@2 files => 27183 bytes
+2022/05/31-01:08:57.002 c53 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/05/31-01:08:57.002 c53 Delete type=2 #163
+2022/05/31-01:08:57.002 c53 Delete type=2 #161

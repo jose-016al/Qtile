@@ -1,0 +1,20 @@
+{
+   "manifest_browserActionTitle": {
+      "message": "Vimeo Record - Screen & Webcam Recorder"
+   },
+   "manifest_description": {
+      "message": "Record and share unlimited free video messages from your browser"
+   },
+   "manifest_name": {
+      "message": "Vimeo Record - Screen & Webcam Recorder"
+   },
+   "manifest_shortName": {
+      "message": "Vimeo Record"
+   },
+   "manifest_shortcutStartRecording": {
+      "message": "Start Recording"
+   },
+   "manifest_shortcutStopRecording": {
+      "message": "Stop Recording"
+   }
+}

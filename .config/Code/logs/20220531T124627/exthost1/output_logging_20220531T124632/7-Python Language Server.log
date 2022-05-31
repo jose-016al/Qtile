@@ -1,0 +1,63 @@
+[Info  - 13:17:12] (11020) Pylance language server 2022.5.3 (pyright 73c82fab) starting
+[Info  - 13:17:12] (11020) Server root directory: /home/jose/.vscode/extensions/ms-python.vscode-pylance-2022.5.3/dist
+Notebook support: Legacy
+[Info  - 13:17:12] (11020) No configuration file found.
+[Info  - 13:17:12] (11020) No pyproject.toml file found.
+[Info  - 13:17:12] (11020) Setting pythonPath for service "jose": "/bin/python"
+[Warn  - 13:17:12] (11020) stubPath /home/jose/typings is not a valid directory.
+[Info  - 13:17:12] (11020) Assuming Python version 3.10
+[Info  - 13:17:12] (11020) Assuming Python platform Linux
+[Info  - 13:17:13] (11020) Searching for source files
+[Error - 13:17:23] (11020) Enumeration of workspace source files is taking longer than 10 seconds.
+This may be because:
+* You have opened your home directory or entire hard drive as a workspace
+* Your workspace contains a very large number of directories and files
+* Your workspace contains a symlink to a directory with many files
+* Your workspace is remote, and file enumeration is slow
+To reduce this time, open a workspace directory with fewer files or add a pyrightconfig.json configuration file with an "exclude" section to exclude subdirectories from your workspace. For more details, refer to https://github.com/microsoft/pyright/blob/main/docs/configuration.md.
+[Info  - 13:18:01] (11020) Found 1 source file
+[Info  - 13:18:01] (11020) Background analysis(1) root directory: /home/jose/.vscode/extensions/ms-python.vscode-pylance-2022.5.3/dist
+[Info  - 13:18:01] (11020) Background analysis(1) started
+[Info  - 13:18:03] (11020) Indexer background runner(2) root directory: /home/jose/.vscode/extensions/ms-python.vscode-pylance-2022.5.3/dist (index)
+[Info  - 13:18:03] (11020) Indexing(2) started
+[Info  - 13:18:07] (11020) [BG(1)] Long operation: getSemanticTokens full at /home/jose/.config/qtile/settings/widgets.py (2755ms)
+[Info  - 13:18:08] (11020) [IDX(2)] Long operation: index execution environment /home/jose (3413ms)
+[Info  - 13:18:08] (11020) [IDX(2)] Long operation: index libraries /home/jose (5844ms)
+[Info  - 13:18:08] (11020) Indexer done(2). indexed 429 files
+[Info  - 13:19:38] (11020) Searching for source files
+[Error - 13:19:48] (11020) Enumeration of workspace source files is taking longer than 10 seconds.
+This may be because:
+* You have opened your home directory or entire hard drive as a workspace
+* Your workspace contains a very large number of directories and files
+* Your workspace contains a symlink to a directory with many files
+* Your workspace is remote, and file enumeration is slow
+To reduce this time, open a workspace directory with fewer files or add a pyrightconfig.json configuration file with an "exclude" section to exclude subdirectories from your workspace. For more details, refer to https://github.com/microsoft/pyright/blob/main/docs/configuration.md.
+[Info  - 13:20:27] (11020) Found 1 source file
+[Info  - 13:20:27] (11020) Searching for source files
+[Error - 13:20:37] (11020) Enumeration of workspace source files is taking longer than 10 seconds.
+This may be because:
+* You have opened your home directory or entire hard drive as a workspace
+* Your workspace contains a very large number of directories and files
+* Your workspace contains a symlink to a directory with many files
+* Your workspace is remote, and file enumeration is slow
+To reduce this time, open a workspace directory with fewer files or add a pyrightconfig.json configuration file with an "exclude" section to exclude subdirectories from your workspace. For more details, refer to https://github.com/microsoft/pyright/blob/main/docs/configuration.md.
+[Info  - 13:21:11] (11020) Found 1 source file
+[Info  - 13:21:11] (11020) Searching for source files
+[Error - 13:21:22] (11020) Enumeration of workspace source files is taking longer than 10 seconds.
+This may be because:
+* You have opened your home directory or entire hard drive as a workspace
+* Your workspace contains a very large number of directories and files
+* Your workspace contains a symlink to a directory with many files
+* Your workspace is remote, and file enumeration is slow
+To reduce this time, open a workspace directory with fewer files or add a pyrightconfig.json configuration file with an "exclude" section to exclude subdirectories from your workspace. For more details, refer to https://github.com/microsoft/pyright/blob/main/docs/configuration.md.
+[Info  - 13:22:00] (11020) Found 1 source file
+[Info  - 13:23:55] (11020) Searching for source files
+[Error - 13:24:06] (11020) Enumeration of workspace source files is taking longer than 10 seconds.
+This may be because:
+* You have opened your home directory or entire hard drive as a workspace
+* Your workspace contains a very large number of directories and files
+* Your workspace contains a symlink to a directory with many files
+* Your workspace is remote, and file enumeration is slow
+To reduce this time, open a workspace directory with fewer files or add a pyrightconfig.json configuration file with an "exclude" section to exclude subdirectories from your workspace. For more details, refer to https://github.com/microsoft/pyright/blob/main/docs/configuration.md.
+[Info  - 13:24:48] (11020) Found 1 source file
+[Info  - 13:27:12] (11020) Searching for source files

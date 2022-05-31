@@ -1,0 +1,20 @@
+{
+   "manifest_browserActionTitle": {
+      "message": "Vimeo Record: Grabadora de pantalla y webcam"
+   },
+   "manifest_description": {
+      "message": "Graba y comparte mensajes de video gratis ilimitados desde tu navegador"
+   },
+   "manifest_name": {
+      "message": "Vimeo Record: Grabadora de pantalla y webcam"
+   },
+   "manifest_shortName": {
+      "message": "Vimeo Record"
+   },
+   "manifest_shortcutStartRecording": {
+      "message": "Iniciar la grabación"
+   },
+   "manifest_shortcutStopRecording": {
+      "message": "Detener la grabación"
+   }
+}

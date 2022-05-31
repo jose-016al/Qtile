@@ -1,0 +1,10 @@
+[2022-05-31 12:46:36.104] [sharedprocess] [info] Starting worker process with pid 9670 (type: fileWatcher, window: 1).
+[2022-05-31 13:07:15.035] [sharedprocess] [info] Getting Manifest... pkief.material-icon-theme
+[2022-05-31 13:07:15.076] [sharedprocess] [info] Installing extension: pkief.material-icon-theme
+[2022-05-31 13:07:17.187] [sharedprocess] [info] Downloaded extension: pkief.material-icon-theme /home/jose/.config/Code/CachedExtensionVSIXs/pkief.material-icon-theme-4.17.0
+[2022-05-31 13:07:20.047] [sharedprocess] [info] Extracted extension to /home/jose/.vscode/extensions/.0dec7d19-6bd5-438f-96fd-bd1406958b87: pkief.material-icon-theme
+[2022-05-31 13:07:20.326] [sharedprocess] [info] Renamed to /home/jose/.vscode/extensions/pkief.material-icon-theme-4.17.0
+[2022-05-31 13:07:20.342] [sharedprocess] [info] Extracting completed. pkief.material-icon-theme
+[2022-05-31 13:07:20.357] [sharedprocess] [info] Extension installed successfully: pkief.material-icon-theme
+[2022-05-31 13:16:17.320] [sharedprocess] [error] SharedProcess (worker, fileWatcher): Worker process with pid 9670 terminated by itself with code null, signal: SIGTRAP (type: fileWatcher, window: 1)
+[2022-05-31 13:16:17.613] [sharedprocess] [info] Starting worker process with pid 10983 (type: fileWatcher, window: 1).

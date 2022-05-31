@@ -1,0 +1,26 @@
+2022/05/18-01:46:57.295 dc9 Reusing MANIFEST /home/jose/.config/google-chrome/Default/Local Extension Settings/gighmmpiobklfepjocnamgkkbiglidom/MANIFEST-000001
+2022/05/18-01:46:57.295 dc9 Recovering log #117
+2022/05/18-01:46:57.295 dc9 Reusing old log /home/jose/.config/google-chrome/Default/Local Extension Settings/gighmmpiobklfepjocnamgkkbiglidom/000117.log 
+2022/05/18-01:48:02.429 dc9 Level-0 table #123: started
+2022/05/18-01:48:02.673 dc9 Level-0 table #123: 7695237 bytes OK
+2022/05/18-01:48:02.716 dc9 Delete type=0 #117
+2022/05/18-02:01:18.219 151a Level-0 table #125: started
+2022/05/18-02:01:18.476 151a Level-0 table #125: 7695154 bytes OK
+2022/05/18-02:01:18.533 151a Delete type=0 #122
+2022/05/18-02:48:03.846 2bfd Level-0 table #127: started
+2022/05/18-02:48:04.344 2bfd Level-0 table #127: 7695285 bytes OK
+2022/05/18-02:48:04.396 2bfd Delete type=0 #124
+2022/05/18-02:52:55.642 2cc4 Level-0 table #129: started
+2022/05/18-02:52:56.002 2cc4 Level-0 table #129: 7695343 bytes OK
+2022/05/18-02:52:56.044 2cc4 Delete type=0 #126
+2022/05/18-02:52:56.048 2cc4 Compacting 4@0 + 2@1 files
+2022/05/18-02:52:56.503 2cc4 Generated table #130@0: 1 keys, 7695150 bytes
+2022/05/18-02:52:56.537 2cc4 Generated table #131@0: 5 keys, 372 bytes
+2022/05/18-02:52:56.537 2cc4 Compacted 4@0 + 2@1 files => 7695522 bytes
+2022/05/18-02:52:56.575 2cc4 compacted to: files[ 0 2 1 0 0 0 0 ]
+2022/05/18-02:52:56.575 2cc4 Delete type=2 #120
+2022/05/18-02:52:56.575 2cc4 Delete type=2 #125
+2022/05/18-02:52:56.576 2cc4 Delete type=2 #127
+2022/05/18-02:52:56.576 2cc4 Delete type=2 #119
+2022/05/18-02:52:56.576 2cc4 Delete type=2 #123
+2022/05/18-02:52:56.576 2cc4 Delete type=2 #129

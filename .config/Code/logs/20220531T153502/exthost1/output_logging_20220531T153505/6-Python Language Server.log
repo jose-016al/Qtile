@@ -1,0 +1,29 @@
+[Info  - 16:56:23] (22687) Pylance language server 2022.5.3 (pyright 73c82fab) starting
+[Info  - 16:56:23] (22687) Server root directory: /home/jose/.vscode/extensions/ms-python.vscode-pylance-2022.5.3/dist
+Notebook support: Legacy
+[Info  - 16:56:23] (22687) No configuration file found.
+[Info  - 16:56:23] (22687) No pyproject.toml file found.
+[Info  - 16:56:23] (22687) Setting pythonPath for service "jose": "/bin/python"
+[Warn  - 16:56:23] (22687) stubPath /home/jose/typings is not a valid directory.
+[Info  - 16:56:23] (22687) Assuming Python version 3.10
+[Info  - 16:56:23] (22687) Assuming Python platform Linux
+[Info  - 16:56:24] (22687) Searching for source files
+[Error - 16:56:34] (22687) Enumeration of workspace source files is taking longer than 10 seconds.
+This may be because:
+* You have opened your home directory or entire hard drive as a workspace
+* Your workspace contains a very large number of directories and files
+* Your workspace contains a symlink to a directory with many files
+* Your workspace is remote, and file enumeration is slow
+To reduce this time, open a workspace directory with fewer files or add a pyrightconfig.json configuration file with an "exclude" section to exclude subdirectories from your workspace. For more details, refer to https://github.com/microsoft/pyright/blob/main/docs/configuration.md.
+[Info  - 16:56:58] (22687) Found 1 source file
+[Info  - 16:56:58] (22687) Background analysis(1) root directory: /home/jose/.vscode/extensions/ms-python.vscode-pylance-2022.5.3/dist
+[Info  - 16:56:58] (22687) Background analysis(1) started
+[Info  - 16:57:01] (22687) Searching for source files
+[Error - 16:57:11] (22687) Enumeration of workspace source files is taking longer than 10 seconds.
+This may be because:
+* You have opened your home directory or entire hard drive as a workspace
+* Your workspace contains a very large number of directories and files
+* Your workspace contains a symlink to a directory with many files
+* Your workspace is remote, and file enumeration is slow
+To reduce this time, open a workspace directory with fewer files or add a pyrightconfig.json configuration file with an "exclude" section to exclude subdirectories from your workspace. For more details, refer to https://github.com/microsoft/pyright/blob/main/docs/configuration.md.
+[Info  - 16:57:49] (22687) Found 1 source file

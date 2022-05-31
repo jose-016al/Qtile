@@ -1,0 +1,12 @@
+2022/05/31-17:10:46.612 28b Reusing MANIFEST /home/jose/.config/Netflix/IndexedDB/https_www.netflix.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/05/31-17:10:46.613 28b Recovering log #162
+2022/05/31-17:10:46.906 28b Reusing old log /home/jose/.config/Netflix/IndexedDB/https_www.netflix.com_0.indexeddb.leveldb/000162.log 
+2022/05/31-17:21:14.341 2ac Level-0 table #167: started
+2022/05/31-17:21:14.461 2ac Level-0 table #167: 2248834 bytes OK
+2022/05/31-17:21:14.505 2ac Delete type=0 #162
+2022/05/31-17:28:26.406 2ac Compacting 1@1 + 1@2 files
+2022/05/31-17:28:26.450 2ac Generated table #168@1: 51 keys, 20035 bytes
+2022/05/31-17:28:26.450 2ac Compacted 1@1 + 1@2 files => 20035 bytes
+2022/05/31-17:28:26.492 2ac compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/05/31-17:28:26.493 2ac Delete type=2 #164
+2022/05/31-17:28:26.493 2ac Delete type=2 #167

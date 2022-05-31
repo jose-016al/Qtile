@@ -1,0 +1,20 @@
+{
+   "manifest_browserActionTitle": {
+      "message": "Vimeo Record - 화면 및 웹캠 녹화기"
+   },
+   "manifest_description": {
+      "message": "브라우저에서 동영상 메시지를 무료 및 무제한으로 녹화하고 공유하세요"
+   },
+   "manifest_name": {
+      "message": "Vimeo Record - 화면 및 웹캠 녹화기"
+   },
+   "manifest_shortName": {
+      "message": "Vimeo Record"
+   },
+   "manifest_shortcutStartRecording": {
+      "message": "녹화 시작"
+   },
+   "manifest_shortcutStopRecording": {
+      "message": "녹화 중지"
+   }
+}

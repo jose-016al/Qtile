@@ -1,0 +1,5 @@
+[2022-05-31T10:14:20.729Z] La validación encontró GIT en: git
+[2022-05-31T10:14:20.807Z] Usando GIT 2.36.1 de git
+[2022-05-31T10:14:20.855Z] > git rev-parse --show-toplevel [5ms]
+[2022-05-31T10:14:20.856Z] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).

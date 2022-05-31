@@ -1,0 +1,6 @@
+2022/05/16-20:45:41.282 7340 Creating DB /home/jose/.config/google-chrome/Default/IndexedDB/https_s4vitar.github.io_0.indexeddb.leveldb since it was missing.
+2022/05/16-20:45:41.394 7340 Reusing MANIFEST /home/jose/.config/google-chrome/Default/IndexedDB/https_s4vitar.github.io_0.indexeddb.leveldb/MANIFEST-000001
+2022/05/16-21:24:08.765 77dd Level-0 table #5: started
+2022/05/16-21:24:08.820 77dd Level-0 table #5: 1622 bytes OK
+2022/05/16-21:24:08.857 77dd Delete type=0 #3
+2022/05/16-21:24:08.858 77dd Manual compaction at level-0 from (begin) .. (end); will stop at (end)

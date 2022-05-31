@@ -1,0 +1,11 @@
+[2022-05-31T13:31:51.439Z] La validación encontró GIT en: git
+[2022-05-31T13:31:51.466Z] Usando GIT 2.36.1 de git
+[2022-05-31T13:31:51.479Z] > git rev-parse --show-toplevel [4ms]
+[2022-05-31T13:31:51.479Z] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+[2022-05-31T13:31:51.558Z] > git rev-parse --show-toplevel [35ms]
+[2022-05-31T13:31:51.558Z] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+[2022-05-31T13:31:54.160Z] > git rev-parse --show-toplevel [25ms]
+[2022-05-31T13:31:54.160Z] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).

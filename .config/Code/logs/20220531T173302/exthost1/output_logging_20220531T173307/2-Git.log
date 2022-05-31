@@ -1,0 +1,131 @@
+[2022-05-31T15:33:09.546Z] La validación encontró GIT en: git
+[2022-05-31T15:33:09.728Z] Usando GIT 2.36.1 de git
+[2022-05-31T15:33:10.358Z] > git rev-parse --show-toplevel [602ms]
+[2022-05-31T15:33:10.358Z] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+[2022-05-31T15:33:10.517Z] > git rev-parse --show-toplevel [145ms]
+[2022-05-31T15:33:10.552Z] > git rev-parse --git-dir --git-common-dir [28ms]
+[2022-05-31T15:33:10.559Z] Open repository: /home/jose/github/dotfiles
+[2022-05-31T15:33:10.672Z] > git rev-parse --show-toplevel [97ms]
+[2022-05-31T15:33:10.672Z] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+[2022-05-31T15:33:10.688Z] > git rev-parse --show-toplevel [8ms]
+[2022-05-31T15:33:10.688Z] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+[2022-05-31T15:33:10.712Z] > git rev-parse --show-toplevel [12ms]
+[2022-05-31T15:33:10.712Z] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+[2022-05-31T15:33:10.745Z] > git rev-parse --show-toplevel [3ms]
+[2022-05-31T15:33:10.745Z] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+[2022-05-31T15:33:10.773Z] > git rev-parse --show-toplevel [7ms]
+[2022-05-31T15:33:10.773Z] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+[2022-05-31T15:33:10.800Z] > git rev-parse --show-toplevel [6ms]
+[2022-05-31T15:33:10.800Z] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+[2022-05-31T15:33:10.810Z] > git rev-parse --show-toplevel [2ms]
+[2022-05-31T15:33:10.810Z] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+[2022-05-31T15:33:10.822Z] > git rev-parse --show-toplevel [4ms]
+[2022-05-31T15:33:10.822Z] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+[2022-05-31T15:33:10.836Z] > git rev-parse --show-toplevel [2ms]
+[2022-05-31T15:33:10.836Z] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+[2022-05-31T15:33:10.843Z] > git status -z -uall [277ms]
+[2022-05-31T15:33:10.849Z] > git rev-parse --show-toplevel [8ms]
+[2022-05-31T15:33:10.849Z] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+[2022-05-31T15:33:10.857Z] > git symbolic-ref --short HEAD [9ms]
+[2022-05-31T15:33:10.862Z] > git rev-parse --show-toplevel [6ms]
+[2022-05-31T15:33:10.862Z] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+[2022-05-31T15:33:10.867Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+[2022-05-31T15:33:10.879Z] > git remote --verbose [2ms]
+[2022-05-31T15:33:10.880Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [7ms]
+[2022-05-31T15:33:10.885Z] > git rev-parse --show-toplevel [18ms]
+[2022-05-31T15:33:10.896Z] > git rev-parse --git-dir --git-common-dir [7ms]
+[2022-05-31T15:33:10.899Z] Open repository: /home/jose/.powerlevel10k
+[2022-05-31T15:33:10.925Z] > git config --get commit.template [30ms]
+[2022-05-31T15:33:10.930Z] > git status -z -uall [20ms]
+[2022-05-31T15:33:10.945Z] > git rev-parse --show-toplevel [26ms]
+[2022-05-31T15:33:10.945Z] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+[2022-05-31T15:33:10.956Z] > git symbolic-ref --short HEAD [11ms]
+[2022-05-31T15:33:10.964Z] > git rev-parse --show-toplevel [12ms]
+[2022-05-31T15:33:10.964Z] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+[2022-05-31T15:33:10.970Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [8ms]
+[2022-05-31T15:33:10.989Z] > git remote --verbose [8ms]
+[2022-05-31T15:33:10.989Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [14ms]
+[2022-05-31T15:33:10.994Z] > git rev-parse --show-toplevel [24ms]
+[2022-05-31T15:33:10.994Z] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+[2022-05-31T15:33:11.008Z] > git rev-parse --show-toplevel [9ms]
+[2022-05-31T15:33:11.008Z] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+[2022-05-31T15:33:11.018Z] > git config --get commit.template [11ms]
+[2022-05-31T15:33:11.022Z] > git rev-parse --show-toplevel [5ms]
+[2022-05-31T15:33:11.022Z] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+[2022-05-31T15:33:11.031Z] > git rev-parse --show-toplevel [2ms]
+[2022-05-31T15:33:11.031Z] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+[2022-05-31T15:33:11.041Z] > git rev-parse --show-toplevel [1ms]
+[2022-05-31T15:33:11.041Z] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+[2022-05-31T15:33:11.051Z] > git rev-parse --show-toplevel [2ms]
+[2022-05-31T15:33:11.051Z] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+[2022-05-31T15:33:11.060Z] > git rev-parse --show-toplevel [2ms]
+[2022-05-31T15:33:11.061Z] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+[2022-05-31T15:33:11.070Z] > git rev-parse --show-toplevel [3ms]
+[2022-05-31T15:33:11.070Z] fatal: not a git repository (or any parent up to mount point /home/jose)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+[2022-05-31T15:33:11.079Z] > git rev-parse --show-toplevel [1ms]
+[2022-05-31T15:33:11.079Z] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+[2022-05-31T15:33:11.084Z] > git rev-parse --show-toplevel [1ms]
+[2022-05-31T15:33:11.085Z] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+[2022-05-31T15:33:11.095Z] > git rev-parse --show-toplevel [5ms]
+[2022-05-31T15:33:11.095Z] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+[2022-05-31T15:33:11.100Z] > git rev-parse --show-toplevel [1ms]
+[2022-05-31T15:33:11.108Z] > git rev-parse --git-dir --git-common-dir [1ms]
+[2022-05-31T15:33:11.111Z] Open repository: /home/jose/dotfiles
+[2022-05-31T15:33:11.122Z] > git rev-parse --show-toplevel [1ms]
+[2022-05-31T15:33:11.122Z] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+[2022-05-31T15:33:11.131Z] > git rev-parse --show-toplevel [2ms]
+[2022-05-31T15:33:11.131Z] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+[2022-05-31T15:33:11.138Z] > git rev-parse --show-toplevel [1ms]
+[2022-05-31T15:33:11.138Z] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+[2022-05-31T15:33:11.163Z] > git status -z -uall [47ms]
+[2022-05-31T15:33:11.168Z] > git symbolic-ref --short HEAD [1ms]
+[2022-05-31T15:33:11.175Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+[2022-05-31T15:33:11.185Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+[2022-05-31T15:33:11.186Z] > git remote --verbose [3ms]
+[2022-05-31T15:33:11.196Z] > git config --get commit.template [1ms]
+[2022-05-31T15:33:11.263Z] > git check-ignore -v -z --stdin [15ms]
+[2022-05-31T15:33:11.439Z] > git show --textconv :README.md [12ms]
+[2022-05-31T15:33:11.452Z] > git ls-files --stage -- /home/jose/github/dotfiles/README.md [15ms]
+[2022-05-31T15:33:11.460Z] > git cat-file -s d8f6b12bb40c877c5e98ab727fb6623a717fc761 [2ms]
+[2022-05-31T15:33:11.700Z] > git rev-parse --show-toplevel [1ms]
+[2022-05-31T15:33:11.709Z] > git rev-parse --show-toplevel [1ms]
+[2022-05-31T15:36:41.544Z] > git status -z -uall [163ms]
+[2022-05-31T15:36:41.552Z] > git symbolic-ref --short HEAD [2ms]
+[2022-05-31T15:36:41.574Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [18ms]
+[2022-05-31T15:36:41.585Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+[2022-05-31T15:36:41.586Z] > git remote --verbose [2ms]
+[2022-05-31T15:36:41.631Z] > git config --get commit.template [2ms]
+[2022-05-31T15:36:46.828Z] > git status -z -uall [185ms]
+[2022-05-31T15:36:46.834Z] > git symbolic-ref --short HEAD [1ms]
+[2022-05-31T15:36:46.844Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+[2022-05-31T15:36:46.858Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [7ms]
+[2022-05-31T15:36:46.859Z] > git remote --verbose [2ms]
+[2022-05-31T15:36:46.914Z] > git config --get commit.template [2ms]

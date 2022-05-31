@@ -1,0 +1,20 @@
+{
+   "manifest_browserActionTitle": {
+      "message": "Vimeo Record – Bildschirm- und Webcamaufnahme"
+   },
+   "manifest_description": {
+      "message": "Unbegrenzt viele kostenlose Videobotschaften aufnehmen und direkt über deinen Browser teilen"
+   },
+   "manifest_name": {
+      "message": "Vimeo Record – Bildschirm- und Webcamaufnahme"
+   },
+   "manifest_shortName": {
+      "message": "Vimeo Record"
+   },
+   "manifest_shortcutStartRecording": {
+      "message": "Aufnahme beginnen"
+   },
+   "manifest_shortcutStopRecording": {
+      "message": "Aufnahme stoppen"
+   }
+}

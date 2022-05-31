@@ -1,0 +1,33 @@
+{
+   "Short name": "Material Dark Theme",
+   "author": "Mohammad Reza Abdolhosseini",
+   "description": " A Dark theme base on google material design, Be prepared to taste a dark chocolate.",
+   "icons": {
+      "128": "images/icon128.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqxln8Mtf+jfyUc+PeNOXWy+zaw4q/ZxxO4LC6OwDXboMKq1TDCGqtoVNqdbNNd52uvX1bPv+aHfk+YnWSoAljs7BuCYCCK6NBPBhltv7h0XqxHzQg2iHNBfM6rKNujOgnPLLxBsiZqrYav5h4xDvxZwCcDMv46NqpEj0FiP4eBzzSSRns/lhuy2ARkyZNVIUIn6a+Ldt7fzjcPCugX86T2i6smFQoD9naCAetAowCYzgfzfgcvtkL379GtzoAfuS80Epu5AyZcAs00FrZY2kF+lvmch+nopsQ7KXiv5WddX6dF5JVtNni9oBr0Cbnv/DyLcNG3Fj0fYVNqeIF9xbbwIDAQAB",
+   "manifest_version": 2,
+   "name": "Material Dark Theme - Dark Chocolate",
+   "theme": {
+      "colors": {
+         "bookmark_text": [ 241, 243, 244 ],
+         "frame": [ 4, 4, 4 ],
+         "frame_inactive": [ 25, 25, 25 ],
+         "frame_incognito": [ 4, 4, 4 ],
+         "frame_incognito_inactive": [ 25, 25, 25 ],
+         "ntp_background": [ 35, 35, 35 ],
+         "ntp_text": [ 255, 255, 255 ],
+         "tab_background_text": [ 154, 160, 166 ],
+         "tab_text": [ 255, 245, 157 ],
+         "toolbar": [ 35, 35, 35 ]
+      },
+      "properties": {
+         "ntp_logo_alternate": 0
+      },
+      "tints": {
+         "buttons": [ -1, -1, 0.96 ]
+      }
+   },
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.5"
+}

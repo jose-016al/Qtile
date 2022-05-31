@@ -1,0 +1,12 @@
+[2022-05-16 00:43:57.613] [exthost] [info] Extension host with pid 624 started
+[2022-05-16 00:43:57.613] [exthost] [info] Skipping acquiring lock for /home/jose/.config/Code - OSS/User/workspaceStorage/cf5be6984796738e18699d90e66750e6.
+[2022-05-16 00:43:57.702] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-05-16 00:43:57.777] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-05-16 00:43:58.055] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-05-16 00:43:58.313] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-05-16 00:43:58.762] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-05-16 00:43:58.896] [exthost] [info] Eager extensions activated
+[2022-05-16 00:43:58.902] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-05-16 00:43:58.974] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-05-16 00:44:41.031] [exthost] [info] Extension host terminating: renderer closed the socket
+[2022-05-16 00:44:41.039] [exthost] [info] Extension host with pid 624 exiting with code 0
