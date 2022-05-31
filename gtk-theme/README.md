@@ -31,5 +31,5 @@ sudo pacman -S lxappearance
 ```
 Para añadir los temas de rofi se hace en la ruta
 ```bash
-cp -r onedark /usr/share/rofi
+cp -r rofi /usr/share/
 ```
