@@ -189,7 +189,7 @@ systemctl enable lightdm
 
 Instalamos paquetes todos los paquetes 
 ```bash
-sudo pacman -S git base-devel rofi feh picom pulseaudio pavucontrol bridghtnessctl xorg-xinit volumeicon cbatticon udisks2 udiskie ttf-dejavu ttf-liberation noto-fonts ntfs-3g arandr vlc imv scrot unzip lxappearance
+sudo pacman -S git base-devel rofi feh picom pulseaudio pavucontrol bridghtnessctl xorg-xinit volumeicon cbatticon udisks2 udiskie ttf-dejavu ttf-liberation noto-fonts ntfs-3g arandr vlc imv scrot unzip lxappearance wget network-manager-applet notification-daemon libnotify python-pip pacman-contrib
 ```
 Instalamos yay
 ```bash 
@@ -217,9 +217,13 @@ git clone git@github.com:jose-016al/dotfiles.git
 ```bash
 cd dotfiles
 ```
+Copiamos el directorio .config
+```bash
+cp -r .config ~/
+```
 Copiamos el archivo xsession para que los cambios sean permanentes
 ```bash
-cp -r .xsession ~/.config/
+cp -r .xsession ~/
 ```
 Le damos permisos de ejecicion en caso de que no los tenga
 ```bash
