@@ -1,0 +1,10 @@
+[2022-06-06 23:34:20.427] [main] [info] window#load: attempt to load window (id: 1)
+[2022-06-06 23:34:20.447] [main] [info] update#setState idle
+[2022-06-06 23:34:20.602] [main] [info] ExtensionHostStarterWorker created
+[2022-06-06 23:34:22.959] [main] [info] window#load: window reported ready (id: 1)
+[2022-06-06 23:34:23.643] [main] [info] Starting extension host with pid 9726 (fork() took 25 ms).
+[2022-06-06 23:34:23.648] [main] [info] ExtensionHostStarterWorker.start() took 39 ms.
+[2022-06-06 23:34:50.453] [main] [info] update#setState checking for updates
+[2022-06-06 23:35:22.136] [main] [info] update#setState idle
+[2022-06-06 23:42:49.732] [main] [info] Waiting for extension host with pid 9726 to exit.
+[2022-06-06 23:42:49.778] [main] [info] Extension host with pid 9726 exited with code: 0, signal: null.

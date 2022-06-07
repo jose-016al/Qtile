@@ -1,0 +1,3 @@
+[2022-06-07 12:35:44.256] [sharedprocess] [info] Starting worker process with pid 940 (type: fileWatcher, window: 1).
+[2022-06-07 13:41:06.019] [sharedprocess] [error] SharedProcess (worker, fileWatcher): Worker process with pid 940 terminated by itself with code null, signal: SIGTRAP (type: fileWatcher, window: 1)
+[2022-06-07 13:41:07.470] [sharedprocess] [info] Starting worker process with pid 10194 (type: fileWatcher, window: 1).

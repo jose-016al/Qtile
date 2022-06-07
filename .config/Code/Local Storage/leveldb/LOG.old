@@ -1,3 +1,3 @@
-2022/05/31-17:28:55.499 11af Reusing MANIFEST /home/jose/.config/Code/Local Storage/leveldb/MANIFEST-000001
-2022/05/31-17:28:55.500 11af Recovering log #3
-2022/05/31-17:28:55.500 11af Reusing old log /home/jose/.config/Code/Local Storage/leveldb/000003.log 
+2022/06/07-11:38:57.008 4cc Reusing MANIFEST /home/jose/.config/Code/Local Storage/leveldb/MANIFEST-000001
+2022/06/07-11:38:57.052 4cc Recovering log #3
+2022/06/07-11:38:57.069 4cc Reusing old log /home/jose/.config/Code/Local Storage/leveldb/000003.log 

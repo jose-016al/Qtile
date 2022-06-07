@@ -52,8 +52,7 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Volver a abrir el editor cerrado",
-                                    "enabled": false
+                                    "label": "&&Volver a abrir el editor cerrado"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -69,6 +68,50 @@
                                     },
                                     "enabled": true,
                                     "label": "/home/jose"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/jose/github/JavaScript",
+                                        "path": "/home/jose/github/JavaScript",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/github/JavaScript"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/jose/github/Java",
+                                        "path": "/home/jose/github/Java",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/github/Java"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/jose/github/Docker",
+                                        "path": "/home/jose/github/Docker",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/github/Docker"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/jose/github/Docker/Web",
+                                        "path": "/home/jose/github/Docker/Web",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/github/Docker/Web"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -127,6 +170,17 @@
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/jose/.local/share/qtile/qtile.log",
+                                        "path": "/home/jose/.local/share/qtile/qtile.log",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.local/share/qtile/qtile.log"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -483,7 +537,8 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleSidebarVisibility",
-                                    "label": "Mostrar barra lateral &&principal"
+                                    "label": "Mostrar barra lateral &&principal",
+                                    "checked": true
                                 },
                                 {
                                     "id": "workbench.action.toggleAuxiliaryBar",
@@ -723,8 +778,7 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Atrás",
-                        "enabled": false
+                        "label": "&&Atrás"
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -733,8 +787,7 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Última ubicación de edición",
-                        "enabled": false
+                        "label": "&&Última ubicación de edición"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1630,7 +1683,7 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
             "activityBarWidth": 48,
-            "sideBarWidth": 0,
+            "sideBarWidth": 300,
             "statusBarHeight": 22,
             "windowBorder": false
         }

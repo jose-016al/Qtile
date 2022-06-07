@@ -1,15 +1,18 @@
-2022/05/31-17:10:39.352 28b Reusing MANIFEST /home/jose/.config/Netflix/Local Storage/leveldb/MANIFEST-000001
-2022/05/31-17:10:39.538 28b Recovering log #62
-2022/05/31-17:10:39.831 28b Reusing old log /home/jose/.config/Netflix/Local Storage/leveldb/000062.log 
-2022/05/31-17:11:45.639 28b Level-0 table #66: started
-2022/05/31-17:11:45.714 28b Level-0 table #66: 22532 bytes OK
-2022/05/31-17:11:45.753 28b Delete type=0 #62
-2022/05/31-17:11:45.753 28b Compacting 4@0 + 1@1 files
-2022/05/31-17:11:45.804 28b Generated table #67@0: 12 keys, 6505 bytes
-2022/05/31-17:11:45.804 28b Compacted 4@0 + 1@1 files => 6505 bytes
-2022/05/31-17:11:45.841 28b compacted to: files[ 0 1 1 0 0 0 0 ]
-2022/05/31-17:11:45.842 28b Delete type=2 #66
-2022/05/31-17:11:45.842 28b Delete type=2 #57
-2022/05/31-17:11:45.842 28b Delete type=2 #54
-2022/05/31-17:11:45.842 28b Delete type=2 #60
-2022/05/31-17:11:45.842 28b Delete type=2 #63
+2022/06/06-22:58:54.414 1fb4 Reusing MANIFEST /home/jose/.config/Netflix/Local Storage/leveldb/MANIFEST-000001
+2022/06/06-22:58:54.415 1fb4 Recovering log #109
+2022/06/06-22:58:54.510 1fb4 Reusing old log /home/jose/.config/Netflix/Local Storage/leveldb/000109.log 
+2022/06/06-23:00:00.954 1fc4 Level-0 table #113: started
+2022/06/06-23:00:01.065 1fc4 Level-0 table #113: 25803 bytes OK
+2022/06/06-23:00:01.100 1fc4 Delete type=0 #109
+2022/06/06-23:00:01.100 1fc4 Compacting 4@0 + 1@1 files
+2022/06/06-23:00:01.144 1fc4 Generated table #114@0: 12 keys, 5642 bytes
+2022/06/06-23:00:01.144 1fc4 Compacted 4@0 + 1@1 files => 5642 bytes
+2022/06/06-23:00:01.177 1fc4 compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/06/06-23:00:01.178 1fc4 Delete type=2 #110
+2022/06/06-23:00:01.178 1fc4 Delete type=2 #107
+2022/06/06-23:00:01.178 1fc4 Delete type=2 #113
+2022/06/06-23:00:01.178 1fc4 Delete type=2 #102
+2022/06/06-23:00:01.179 1fc4 Delete type=2 #105
+2022/06/07-00:47:00.983 1fb5 Level-0 table #116: started
+2022/06/07-00:47:01.041 1fb5 Level-0 table #116: 23552 bytes OK
+2022/06/07-00:47:01.103 1fb5 Delete type=0 #112

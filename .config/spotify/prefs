@@ -8,6 +8,6 @@ app.autostart-mode=""
 autologin.canonical_username="josep99al"
 storage.last-location="/home/jose/.cache/spotify/Storage"
 app.window.position.width=1360
-core.clock_delta=23
+core.clock_delta=36
 app.last-launched-version="1.1.84.716.gc5f8b819"
 app.autostart-configured=true

@@ -1,0 +1,80 @@
+[Info  - 11:46:15] (1684) Pylance language server 2022.6.0 (pyright c6e1d8dd) starting
+[Info  - 11:46:15] (1684) Server root directory: /home/jose/.vscode/extensions/ms-python.vscode-pylance-2022.6.0/dist
+Notebook support: Legacy
+[Info  - 11:46:15] (1684) No configuration file found.
+[Info  - 11:46:15] (1684) No pyproject.toml file found.
+[Info  - 11:46:15] (1684) Setting pythonPath for service "jose": "/bin/python"
+[Warn  - 11:46:15] (1684) stubPath /home/jose/typings is not a valid directory.
+[Info  - 11:46:15] (1684) Assuming Python version 3.10
+[Info  - 11:46:15] (1684) Assuming Python platform Linux
+[Info  - 11:46:16] (1684) Searching for source files
+[Info  - 11:46:19] (1684) Found 1 source file
+[Info  - 11:46:19] (1684) Background analysis(1) root directory: /home/jose/.vscode/extensions/ms-python.vscode-pylance-2022.6.0/dist
+[Info  - 11:46:19] (1684) Background analysis(1) started
+[Info  - 11:46:19] (1684) Indexer background runner(2) root directory: /home/jose/.vscode/extensions/ms-python.vscode-pylance-2022.6.0/dist (index)
+[Info  - 11:46:19] (1684) Indexing(2) started
+[Info  - 11:46:22] (1684) [BG(1)] Long operation: analyzing: /home/jose/.config/qtile/settings/widgets.py (2197ms)
+[Info  - 11:46:24] (1684) [IDX(2)] Long operation: index execution environment /home/jose (3252ms)
+[Info  - 11:46:24] (1684) [IDX(2)] Long operation: index libraries /home/jose (4587ms)
+[Info  - 11:46:24] (1684) Indexer done(2). indexed 450 files
+[Info  - 11:47:55] (1684) Searching for source files
+[Info  - 11:47:58] (1684) Found 1 source file
+[Info  - 11:48:03] (1684) Searching for source files
+[Info  - 11:48:06] (1684) Found 1 source file
+[Info  - 11:48:10] (1684) Searching for source files
+[Info  - 11:48:13] (1684) Found 1 source file
+[Info  - 11:48:13] (1684) Searching for source files
+[Info  - 11:48:16] (1684) Found 1 source file
+[Info  - 11:50:22] (1684) Searching for source files
+[Info  - 11:50:24] (1684) Found 1 source file
+[Info  - 11:51:42] (1684) Searching for source files
+[Info  - 11:51:46] (1684) Found 1 source file
+[Info  - 11:52:11] (1684) Searching for source files
+[Info  - 11:52:16] (1684) Found 1 source file
+[Info  - 11:53:04] (1684) Searching for source files
+[Info  - 11:53:08] (1684) Found 1 source file
+[Info  - 11:53:32] (1684) Searching for source files
+[Info  - 11:53:35] (1684) Found 1 source file
+[Info  - 11:54:52] (1684) Searching for source files
+[Info  - 11:54:54] (1684) Found 1 source file
+[Info  - 11:55:12] (1684) Searching for source files
+[Info  - 11:55:14] (1684) Found 1 source file
+[Info  - 11:57:07] (1684) Searching for source files
+[Error - 11:57:18] (1684) Enumeration of workspace source files is taking longer than 10 seconds.
+This may be because:
+* You have opened your home directory or entire hard drive as a workspace
+* Your workspace contains a very large number of directories and files
+* Your workspace contains a symlink to a directory with many files
+* Your workspace is remote, and file enumeration is slow
+To reduce this time, open a workspace directory with fewer files or add a pyrightconfig.json configuration file with an "exclude" section to exclude subdirectories from your workspace. For more details, refer to https://github.com/microsoft/pyright/blob/main/docs/configuration.md.
+[Info  - 11:57:19] (1684) Found 1 source file
+[Info  - 11:57:23] (1684) [BG(1)] Long operation: parsing: /home/jose/.config/qtile/settings/widgets.py (3656ms)
+[Info  - 11:57:24] (1684) [BG(1)] Long operation: analyzing: /home/jose/.config/qtile/settings/widgets.py (4563ms)
+[Info  - 11:59:41] (1684) Searching for source files
+[Info  - 11:59:45] (1684) Found 1 source file
+[Info  - 12:04:49] (1684) Searching for source files
+[Info  - 12:04:53] (1684) Found 1 source file
+[Info  - 12:05:41] (1684) Searching for source files
+[Info  - 12:05:44] (1684) Found 1 source file
+[Info  - 12:05:45] (1684) Searching for source files
+[Info  - 12:05:47] (1684) Found 1 source file
+[Info  - 12:05:47] (1684) Searching for source files
+[Info  - 12:05:51] (1684) Found 1 source file
+[Info  - 12:05:51] (1684) Searching for source files
+[Info  - 12:05:54] (1684) Found 1 source file
+[Info  - 12:07:38] (1684) Searching for source files
+[Info  - 12:07:42] (1684) Found 1 source file
+[Info  - 12:12:46] (1684) Searching for source files
+[Info  - 12:12:50] (1684) Found 1 source file
+[Info  - 12:13:09] (1684) Searching for source files
+[Info  - 12:13:12] (1684) Found 1 source file
+[Info  - 12:13:19] (1684) Searching for source files
+[Info  - 12:13:22] (1684) Found 1 source file
+[Info  - 12:13:40] (1684) Searching for source files
+[Info  - 12:13:44] (1684) Found 1 source file
+[Info  - 12:13:48] (1684) Searching for source files
+[Info  - 12:13:51] (1684) Found 1 source file
+[Info  - 12:28:01] (1684) Searching for source files
+[Info  - 12:28:04] (1684) Found 1 source file
+[Info  - 12:29:19] (1684) Searching for source files
+[Info  - 12:29:22] (1684) Found 1 source file

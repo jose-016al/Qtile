@@ -1,0 +1,9 @@
+version: "3.7"
+services: 
+  mysql:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: server
+    restart: always
+    

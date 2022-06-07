@@ -1,0 +1,2 @@
+[2022-06-07 11:39:17.490] [renderer1] [info] UNRESPONSIVE extension host: starting to profile NOW
+[2022-06-07 11:39:22.694] [renderer1] [warning] UNRESPONSIVE extension host: 'ritwickdey.LiveServer' took 100% of 5156.003ms, saved PROFILE here: 'file:///tmp/exthost-c11240.cpuprofile' [{"id":"gc","total":4279,"percentage":0},{"id":"ritwickdey.LiveServer","total":5151471,"percentage":100}]

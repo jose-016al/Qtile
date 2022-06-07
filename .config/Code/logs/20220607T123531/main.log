@@ -1,0 +1,14 @@
+[2022-06-07 12:35:33.557] [main] [info] window#load: attempt to load window (id: 1)
+[2022-06-07 12:35:33.661] [main] [info] update#setState idle
+[2022-06-07 12:35:34.354] [main] [info] ExtensionHostStarterWorker created
+[2022-06-07 12:35:39.474] [main] [info] window#load: window reported ready (id: 1)
+[2022-06-07 12:35:39.744] [main] [info] Starting extension host with pid 893 (fork() took 37 ms).
+[2022-06-07 12:35:39.748] [main] [info] ExtensionHostStarterWorker.start() took 45 ms.
+[2022-06-07 12:35:52.111] [main] [info] Enabling inspect port on extension host with pid 893.
+[2022-06-07 12:36:03.666] [main] [info] update#setState checking for updates
+[2022-06-07 12:36:03.725] [main] [info] update#setState idle
+[2022-06-07 13:36:03.752] [main] [info] update#setState checking for updates
+[2022-06-07 13:36:04.133] [main] [info] update#setState idle
+[2022-06-07 13:43:30.848] [main] [info] Extension host with pid 893 exited with code: 0, signal: null.
+[2022-06-07 13:43:33.627] [main] [warning] [storage main] detected slow close() operation: Time: 4821ms, DB size: 61440b, Large Keys: memento/workbench.editors.files.textFileEditor:24790, workbench.view.extensions.state:1779, codelens/cache2:1569, __$__targetStorageMarker:1566, workbench.explorer.treeViewState:1073
+[2022-06-07 13:43:34.496] [main] [warning] [storage main] detected slow close() operation: Time: 5691ms, DB size: 1536000b, Large Keys: iconThemeData:416000, colorThemeData:15183, ms-python.python:6858, ms-toolsai.jupyter:6166, workbench.activity.placeholderViewlets:3842
