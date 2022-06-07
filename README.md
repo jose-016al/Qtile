@@ -2,8 +2,14 @@
 
 ![Qtile](.screenshots/qtile.png)
 
-# Índice
+# Enlaces a consultar
+- **[Gnome-Look](https://www.gnome-look.org/s/Gnome/browse/))**
+- **[Qtile docs](http://docs.qtile.org/en/stable/))**
+- **[Nerd Fonts](https://www.nerdfonts.com/cheat-sheet))**
+- **[Personalizar LightDM](https://geekland.eu/personalizar-y-configurar-lightdm/))**
+- **[Instalar Docker](https://linuxhint.com/arch-linux-docker-tutorial/))**
 
+# Índice
 - [Instalacion de Arch Linux](#instalacion-de-arch-linux)
 - [Tras la instalacion de Arch Linux](#tras-la-instalacion-de-arch-Linux)
 - [Instalacion Qtile](#instalacion-qtile)
@@ -13,7 +19,6 @@
 
 
 # Instalacion de Arch Linux
-
 Para la instalacion de Arch Linux es recomendable tener a mano la **[Wiki de Arch](https://wiki.archlinux.org/title/Installation_guide_(Espa%C3%B1ol))**
 
 Cambiamos la distribucion del teclado 
@@ -160,7 +165,6 @@ reboot
 ```
 
 # Tras la instalacion de Arch Linux
-
 Instalamos xorg
 ```bash
 sudo pacman -S xorg xorg-server
@@ -176,7 +180,6 @@ xdg-user-dirs-update
 ```
 
 # Instalacion Qtile
-
 Instalamos Qtile y el logging manager
 ```bash
 sudo pacman -S qtile lightdm lightdm-gtk-greeter
@@ -184,12 +187,12 @@ sudo pacman -S qtile lightdm lightdm-gtk-greeter
 ```bash
 systemctl enable lightdm
 ```
+Al ejecutar Qtile no podremos abrir una terminal, ya que Qtile usa xterm, tendremos que modificar en Keys la terminal  
 
 # Instalacion paquetes necesarios para Qtile
-
 Instalamos paquetes todos los paquetes 
 ```bash
-sudo pacman -S git base-devel rofi feh picom pulseaudio pavucontrol bridghtnessctl xorg-xinit volumeicon cbatticon udisks2 udiskie ttf-dejavu ttf-liberation noto-fonts ntfs-3g arandr vlc imv scrot unzip lxappearance wget network-manager-applet notification-daemon libnotify python-pip pacman-contrib
+sudo pacman -S git base-devel rofi feh picom pulseaudio pavucontrol bridghtnessctl xorg-xinit volumeicon cbatticon udisks2 udiskie ttf-dejavu ttf-liberation noto-fonts ntfs-3g arandr vlc imv scrot unzip lxappearance wget network-manager-applet notification-daemon libnotify python-pip pacman-contrib bat exa zsh
 ```
 Instalamos yay
 ```bash 
@@ -203,13 +206,51 @@ makepkg -si
 ```
 Instalamos paquetes con yay
 ```bash
-yay -S visual-studio-code-bin 
+yay -S visual-studio-code-bin autofirma configuradorfnmt evince nautilus nerd-fonts-ubuntu-mono netflix-bin onedriver spotify telegram-desktop-bin whatsapp-for-linux xfce4-power-manager transmission-gtk apache-netbeans gnome-disk-utility prospect-mail-bin dbeaver zsh-syntax-highlighting zsh-autosuggestions
 ```
 
 # Configuracion kitty
+Si tenemos problemas con el teclado en español
+```bash
+localectl set-x11-keymap es
+```
+Cambiamos la shell
+```bash
+usermod --shell /bin/bash/zsh jose 
+```
+
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
 
 # Configuracion Qtile
-
 Copiamos la configuracion de Qtile de github
 ```bash
 git clone git@github.com:jose-016al/dotfiles.git
