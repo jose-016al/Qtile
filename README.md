@@ -219,7 +219,7 @@ makepkg -si
 ```
 Instalamos paquetes con yay
 ```bash
-yay -S visual-studio-code-bin autofirma configuradorfnmt evince nautilus nerd-fonts-ubuntu-mono netflix-bin onedriver spotify telegram-desktop-bin whatsapp-for-linux xfce4-power-manager transmission-gtk apache-netbeans gnome-disk-utility prospect-mail-bin dbeaver zsh-syntax-highlighting zsh-autosuggestions
+yay -S visual-studio-code-bin autofirma configuradorfnmt evince nautilus nerd-fonts-ubuntu-mono netflix-bin onedriver spotify telegram-desktop-bin whatsapp-for-linux xfce4-power-manager transmission-gtk apache-netbeans gnome-disk-utility prospect-mail-bin dbeaver zsh-syntax-highlighting zsh-autosuggestions gcalctool-oldgui gnome-calendar
 ```
 
 # Copiar mi config Qtile
