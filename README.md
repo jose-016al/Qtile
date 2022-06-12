@@ -214,7 +214,7 @@ Al ejecutar Qtile no podremos abrir una terminal, ya que Qtile usa xterm, tendre
 # Instalacion paquetes necesarios para Qtile
 Instalamos paquetes todos los paquetes 
 ```bash
-sudo pacman -S git base-devel rofi feh picom pulseaudio pavucontrol bridghtnessctl xorg-xinit volumeicon cbatticon udisks2 udiskie ttf-dejavu ttf-liberation noto-fonts ntfs-3g arandr vlc imv scrot unzip lxappearance wget network-manager-applet notification-daemon libnotify python-pip pacman-contrib bat lsd zsh
+sudo pacman -S git base-devel rofi feh picom pulseaudio pavucontrol bridghtnessctl xorg-xinit volumeicon cbatticon udisks2 udiskie ttf-dejavu ttf-liberation noto-fonts ntfs-3g arandr vlc imv scrot unzip lxappearance wget network-manager-applet notification-daemon libnotify python-pip pacman-contrib bat lsd zsh iwd
 ```
 Instalamos yay
 ```bash 
