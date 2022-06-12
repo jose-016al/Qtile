@@ -40,7 +40,16 @@ loadkeys es
 ```
 Nos aseguramos de tener acceso a internet, ya sea por LAN, si no es el caso ejecutamos los siguientes comandos
 ```bash
-iwctl...
+iwctl
+```
+```bash
+station wlan0 scan
+```
+```bash
+station wlan0 get-networks
+```
+``bash
+station wlan0 connect SSID
 ```
 Listamos el contenido del directorio efivars, para comprobar la modalidad de arranque del sistema, UEFI o BIOS
 ```bash
