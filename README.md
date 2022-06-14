@@ -103,7 +103,7 @@ mount /dev/sda1 /mnt/boot
 ```
 Instalamos los paquetes necesarios
 ```bash
-pacstrap /mnt base linux linux-firmware networkmanager sudo grub efibootmgr nano kitty firefox
+pacstrap /mnt base linux linux-firmware networkmanager sudo grub efibootmgr nano kitty firefox iwd
 ```
 Generamos el archivo fstab
 ```bash
@@ -125,7 +125,7 @@ Idioma del sistema y teclado
 nano /etc/locale.gen
 ```
 ```bash
-locale.gen
+locale-gen
 ```
 ```bash
 echo "LANG=es_ES.UTF-8" > /etc/locale.conf
