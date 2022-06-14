@@ -157,7 +157,7 @@ useradd -m jose
 passwd jose
 ```
 ```bash
-usermod -aG wheel,video,audio,storage
+usermod -aG wheel,video,audio,storage jose
 ```
 tendremos que configurar el archivo sudoers para poder ser root
 ```bash
@@ -169,7 +169,7 @@ systemctl enable NetworkManager
 ```
 COnfiguramos el grub
 ```bash
-grub-install -target=x86_64-efi --efi-directory=/boot
+grub-install --target=x86_64-efi --efi-directory=/boot
 ```
 ```bash
 grub-mkconfig -o /boot/grub/grub.cfg
