@@ -75,7 +75,7 @@ Formateamos las particiones: / y home
 ```bash
 mkfs.ext4 /dev/sda3
 ```
-``bash
+```bash
 mkfs.ext4 /dev/sda4
 ```
 Formateamos la particion swap
