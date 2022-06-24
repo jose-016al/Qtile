@@ -1,12 +1,12 @@
 Estos ridrectorios deben copiarse en la sigueintes rutas 
 ```bash
-cp -r Material ~/github/dotfiles/gtk-theme 
+sudo cp -r Material /usr/share/themes
 ```
 ```bash
-cp -r Papirus ~/github/dotfiles/gtk-theme 
+sudo cp -r Papirus /usr/share/icons
 ```
 ```bash
-cp -r Breeze ~/github/dotfiles/gtk-theme 
+sudo cp -r Breeze /usr/share/icons 
 ```
 Para que los temas se apliquen debemos modificar el archivo setting.ini de esta forma 
 > [Settings]  
