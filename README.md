@@ -214,7 +214,7 @@ Al ejecutar Qtile no podremos abrir una terminal, ya que Qtile usa xterm, tendre
 # Instalacion paquetes necesarios para Qtile
 Instalamos paquetes todos los paquetes 
 ```bash
-sudo pacman -S git base-devel rofi feh picom pulseaudio pavucontrol xorg-xinit volumeicon cbatticon udisks2 udiskie ttf-dejavu ttf-liberation noto-fonts ntfs-3g arandr vlc imv scrot unzip lxappearance wget network-manager-applet notification-daemon libnotify python-pip pacman-contrib bat lsd zsh iwd
+sudo pacman -S git base-devel rofi feh picom pulseaudio pavucontrol xorg-xinit volumeicon cbatticon udisks2 udiskie ttf-dejavu ttf-liberation noto-fonts ntfs-3g arandr vlc imv scrot unzip lxappearance wget network-manager-applet notification-daemon libnotify python-pip pacman-contrib bat lsd zsh iwd lightdm-webkit2-greeter 
 ```
 Instalamos yay
 ```bash 
@@ -228,7 +228,7 @@ makepkg -si
 ```
 Instalamos paquetes con yay
 ```bash
-yay -S visual-studio-code-bin autofirma configuradorfnmt evince nautilus nerd-fonts-ubuntu-mono netflix-bin onedriver spotify telegram-desktop-bin whatsapp-for-linux xfce4-power-manager transmission-gtk apache-netbeans gnome-disk-utility prospect-mail-bin dbeaver zsh-syntax-highlighting zsh-autosuggestions gcalctool-oldgui gnome-calendar brightnessctl-git ms-office-online 
+yay -S visual-studio-code-bin autofirma configuradorfnmt evince nautilus nerd-fonts-ubuntu-mono netflix-bin onedriver spotify telegram-desktop-bin whatsapp-for-linux xfce4-power-manager transmission-gtk apache-netbeans gnome-disk-utility prospect-mail-bin dbeaver zsh-syntax-highlighting zsh-autosuggestions gcalctool-oldgui gnome-calendar brightnessctl-git ms-office-online lightdm-webkit-theme-osmos
 ```
 
 # Copiar mi config Qtile
