@@ -8,6 +8,7 @@
 - **[Nerd Fonts](https://www.nerdfonts.com/cheat-sheet)**
 - **[Personalizar LightDM](https://geekland.eu/personalizar-y-configurar-lightdm/)**
 - **[Instalar Docker](https://linuxhint.com/arch-linux-docker-tutorial/)**
+- **[Problemas con las llaves](https://superlativoblog.wordpress.com/2017/01/06/solucion-al-problema-de-llaves-actualizando-arch-o-derivadas/)**
 
 # Índice
 - [Instalacion de Arch Linux](#instalacion-de-arch-linux)
