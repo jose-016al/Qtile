@@ -80,6 +80,11 @@ alias qtile_status="code ~/.local/share/qtile/qtile.log"
 alias web="code ~/github/Docker/Web"
 alias .="code ."
 
+# Actualizaciones
+alias UpdateCode="yay -S visual-studio-code-bin"
+alias UpdateDbeaver="yay -S dbeaver"
+
+ 
 # Docker
 alias server="~/github/Docker/.server.bash"
 
