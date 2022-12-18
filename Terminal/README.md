@@ -5,14 +5,14 @@ localectl set-x11-keymap es
 ```
 Cambiamos la shell
 ```bash
-usermod --shell /bin/bash/zsh jose 
+sudo usermod --shell /bin/zsh jose 
 ```
 Creamos un directorio en la ruta
 ```bash
 sudo mkdir /usr/share/zsh-sudo
 ```
 ```bash
-cp -r sudo.plugin.zsh /usr/share/zsh-sudo
+sudo cp -r sudo.plugin.zsh /usr/share/zsh-sudo
 ```
 Clonamos el repositorio de powerlevel10k
 ```bash
@@ -24,4 +24,8 @@ zsh
 ```
 ```bash
 cp -r .p10k.zsh ~/
+```
+Copiamos el archivo de configuracion de zsh
+```bash
+cp -r .zshrc ~/
 ```
