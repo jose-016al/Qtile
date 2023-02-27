@@ -1,9 +1,0 @@
-[%General]
-Driver=QMYSQL
-
-[QMYSQL]
-Host=
-Name=akonadi
-Options="UNIX_SOCKET=/run/user/1000/akonadi/mysql.socket"
-ServerPath=/usr/bin/mysqld
-StartServer=true

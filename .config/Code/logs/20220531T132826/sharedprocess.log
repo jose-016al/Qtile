@@ -1,3 +1,0 @@
-[2022-05-31 13:28:45.234] [sharedprocess] [info] Starting worker process with pid 12242 (type: fileWatcher, window: 1).
-[2022-05-31 15:16:38.208] [sharedprocess] [error] SharedProcess (worker, fileWatcher): Worker process with pid 12242 terminated by itself with code null, signal: SIGTRAP (type: fileWatcher, window: 1)
-[2022-05-31 15:16:38.302] [sharedprocess] [info] Starting worker process with pid 17228 (type: fileWatcher, window: 1).

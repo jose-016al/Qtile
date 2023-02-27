@@ -1,2 +1,0 @@
-[DBUS]
-Address="unix:path=/run/user/1000/bus"

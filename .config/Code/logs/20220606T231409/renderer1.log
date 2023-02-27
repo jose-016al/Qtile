@@ -1,3 +1,0 @@
-[2022-06-06 23:14:36.465] [renderer1] [info] UNRESPONSIVE extension host: starting to profile NOW
-[2022-06-06 23:14:37.121] [renderer1] [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
-[2022-06-06 23:14:37.413] [renderer1] [warning] UNRESPONSIVE extension host: 'ritwickdey.LiveServer' took 84% of 896.755ms, saved PROFILE here: 'file:///tmp/exthost-01004d.cpuprofile' [{"id":"gc","total":30878,"percentage":3},{"id":"program","total":315,"percentage":0},{"id":"ritwickdey.LiveServer","total":753492,"percentage":84},{"id":"self","total":56016,"percentage":6},{"id":"vscode.git","total":38092,"percentage":4},{"id":"vscode.markdown-language-features","total":17399,"percentage":2}]

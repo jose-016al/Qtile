@@ -1,5 +1,0 @@
-[2022-05-31 13:28:51.362] [renderer1] [info] UNRESPONSIVE extension host: starting to profile NOW
-[2022-05-31 13:28:52.205] [renderer1] [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
-[2022-05-31 13:28:52.329] [renderer1] [warning] UNRESPONSIVE extension host: 'ritwickdey.LiveServer' took 78% of 1011.191ms, saved PROFILE here: 'file:///tmp/exthost-722387.cpuprofile' [{"id":"gc","total":624,"percentage":0},{"id":"program","total":328,"percentage":0},{"id":"ritwickdey.LiveServer","total":785462,"percentage":78},{"id":"self","total":177888,"percentage":18},{"id":"vscode.github-authentication","total":46684,"percentage":5}]
-[2022-05-31 15:13:11.427] [renderer1] [error] spawn git ENOENT
-[2022-05-31 15:16:38.296] [renderer1] [error] [File Watcher (universal)] restarting watcher after error: terminated by itself with code undefined, signal: SIGTRAP

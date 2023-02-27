@@ -50,13 +50,13 @@ keys = [
     Key([mod, "shift"], "m", lazy.spawn("rofi -show")),
 
     # Browser
-    Key([mod], "b", lazy.spawn("google-chrome-stable")),
+    Key([mod], "b", lazy.spawn("brave")),
 
     # Terminal
     Key([mod], "Return", lazy.spawn("kitty")),
 
     # File Explorer
-    Key([mod], "e", lazy.spawn("nautilus")),
+    Key([mod], "e", lazy.spawn("thunar")),
 
     # Screenshot
     Key([mod], "s", lazy.spawn("scrot")),

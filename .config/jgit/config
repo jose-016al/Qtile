@@ -1,3 +1,0 @@
-[filesystem "Oracle Corporation|11.0.15|/dev/sda4"]
-	timestampResolution = 9000 nanoseconds
-	minRacyThreshold = 4649 microseconds

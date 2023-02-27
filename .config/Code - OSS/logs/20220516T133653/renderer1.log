@@ -1,5 +1,0 @@
-[2022-05-16 14:39:16.964] [renderer1] [error] [File Watcher (parcel)] Unexpected error: basic_string::_M_create (EUNKNOWN) (path: /home/jose)
-[2022-05-16 14:39:16.965] [renderer1] [error] [File Watcher (universal)] restarting watcher after error: basic_string::_M_create
-[2022-05-16 15:12:31.450] [renderer1] [info] UNRESPONSIVE extension host: starting to profile NOW
-[2022-05-16 15:37:03.338] [renderer1] [info] UNRESPONSIVE extension host: starting to profile NOW
-[2022-05-16 15:37:58.197] [renderer1] [info] UNRESPONSIVE extension host: starting to profile NOW
