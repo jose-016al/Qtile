@@ -52,7 +52,7 @@ station wlan0 get-networks
 ```bash
 station wlan0 connect SSID
 ```
-Listamos el contenido del directorio efivars, para comprobar la modalidad de arranque del sistema, UEFI o BIOS
+Listamos el contenido del directorio efivars, para comprobar la modalidad de arranque del sistema, UEFI o BIOS  
 ```bash
 ls /sys/firmware/efi/efivars
 ```
