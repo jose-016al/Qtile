@@ -148,7 +148,7 @@ Al ejecutar Qtile no podremos abrir una terminal, ya que Qtile usa xterm, tendre
 # Instalacion paquetes necesarios para Qtile
 Instalacion de algunos paquetes basicos para Qtile
 ```bash
-sudo pacman -S git base-devel pulseaudio pavucontrol xorg-xinit arandr kitty rofi feh picom volumeicon cbatticon udisks2 udiskie ntfs-3g vlc imv scrot unzip lxappearance wget network-manager-applet
+sudo pacman -S git base-devel pulseaudio pavucontrol xorg-xinit arandr kitty rofi feh picom volumeicon cbatticon udisks2 udiskie ntfs-3g vlc imv scrot unzip lxappearance wget network-manager-applet spotify-launcher
 ```
 ```bash
 sudo pacman -S ttf-dejavu ttf-liberation noto-fonts  notification-daemon libnotify python-pip pacman-contrib bat lsd zsh
@@ -165,8 +165,8 @@ makepkg -si
 ```
 Una vez tengamos instalado yay, podremos instalar el resto de paquetes
 ```bash
-yay -S brave-bin telegram-desktop-bin
+yay -S brave-bin telegram-desktop-bin visual-studio-code-bin autofirma configuradorfnmt onedriver xfce4-power-manager nautilus nerd-fonts-ubuntu-mono gnome-disk-utility zsh-syntax-highlighting zsh-autosuggestions
 ```
 ```bash
-yay -S visual-studio-code-bin autofirma configuradorfnmt evince nautilus nerd-fonts-ubuntu-mono netflix-bin onedriver spotify telegram-desktop-bin whatsapp-for-linux xfce4-power-manager transmission-gtk apache-netbeans gnome-disk-utility prospect-mail-bin dbeaver zsh-syntax-highlighting zsh-autosuggestions gcalctool-oldgui gnome-calendar brightnessctl-git ms-office-online lightdm-webkit-theme-osmos
+yay -S evince netflix-bin whatsapp-for-linux  transmission-gtk apache-netbeans prospect-mail-bin dbeaver  gcalctool-oldgui gnome-calendar brightnessctl-git ms-office-online lightdm-webkit-theme-osmos
 ```
