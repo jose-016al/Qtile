@@ -1,16 +1,21 @@
 # Mi entorno de escriotiro Qtile con ArchLinux
 
 # Tabla de contenidos
-- [Instalacion de ArchLinux](#instalacion-de-archlinux)
-  - [Conexion wifi](#conexion-wifi)
-  - [Particiones y formato de disco](#particionar-y-formatear-el-disco)
-  - [Instalar paquetes esenciales](#instalar-paquetes-esenciales)
-  - [Instalacion del gestor de arranque](#instalacion-del-gestor-de-arranque)
-  - [Antes de reiniciar](#antes-de-reiniar)
-- [Configuracion adicional de Arch Linux](#configuracion-adicional-de-arch-linux)
-- [Instalacion de Qtile](#instalacion-de-qtile)
+- [ArchLinux](#arch-linux)
+  - [Instalacion de ArchLinux](#instalacion-de-archlinux)
+    - [Conexion wifi](#conexion-wifi)
+    - [Particiones y formato de disco](#particionar-y-formatear-el-disco)
+    - [Instalar paquetes esenciales](#instalar-paquetes-esenciales)
+    - [Instalacion del gestor de arranque](#instalacion-del-gestor-de-arranque)
+    - [Antes de reiniciar](#antes-de-reiniar)
+  - [Configuracion adicional de Arch Linux](#configuracion-adicional-de-arch-linux)
+- [Qtile](#qtile)
+  - [Instalacion de Qtile](#instalacion-de-qtile)
+  - [Instalacion paquetes necesarios para Qtile](#instalacion-paquetes-necesarios-para-qtile)
 
-# Instalacion de ArchLinux 
+# Arch Linux
+
+## Instalacion de ArchLinux 
 Como la instalacion puede cambiar, lo mejor seria diriginos directamente a la [guide installation](https://wiki.archlinux.org/title/Installation_guide_(Espa%C3%B1ol)) y seguir paso a paso la guia de instalacion de archlinux  
 
 Es posible que nos salga el tamaño de fuente demasiado pequeño, por ahora podemos configurar esto con este comando
@@ -18,7 +23,7 @@ Es posible que nos salga el tamaño de fuente demasiado pequeño, por ahora pode
 setfont ter-118n
 ```
 
-## Conexion wifi
+### Conexion wifi
 ```bash
 iwctl
 ```
@@ -32,7 +37,7 @@ station wlan0 get-networks
 station wlan0 connect SSID
 ```
 
-## Particionar y formatear el disco
+### Particionar y formatear el disco
 Usaremos cfdisk por su comodidad
 ```bash
 cfdisk
@@ -65,13 +70,13 @@ Montamos la particion de EFI
 mount --mkdir /dev/sda1 /mnt/boot
 ```
 
-## Instalar paquetes esenciales
+### Instalar paquetes esenciales
 Algunos paquetes quizas no sean esenciales pero podemos aprovechar e instalarlos ya
 ```bash
 pacstrap /mnt base linux linux-firmware networkmanager sudo grub efibootmgr nano iwd
 ```
 
-## Instalacion del gestor de arranque
+### Instalacion del gestor de arranque
 Procedemos con la configuracion del grub
 COnfiguramos el grub
 ```bash
@@ -81,7 +86,7 @@ grub-install --target=x86_64-efi --efi-directory=/boot
 grub-mkconfig -o /boot/grub/grub.cfg
 ```
 
-## Antes de reiniar
+### Antes de reiniar
 Asegurarse de habilitar el servicio networkManager
 ```bash
 systemctl enable NetworkManager
@@ -98,7 +103,7 @@ Y reiniciamos el sistema, si nos sale el gestor de arranque de Arch habra salido
 reboot
 ```
 
-# Configuracion adicional de Arch Linux
+## Configuracion adicional de Arch Linux
 Editamos el archivo hosts
 ```bash
 nano /etc/hosts
@@ -135,7 +140,9 @@ Por ultimo lo ejecutamos para que nos genere nuestras carpetas.
 xdg-user-dirs-update
 ```
 
-# Instalacion de Qtile
+# Qtile
+
+## Instalacion de Qtile
 Instalamos Qtile y el logging manager
 ```bash
 sudo pacman -S qtile lightdm lightdm-gtk-greeter
@@ -145,7 +152,7 @@ systemctl enable lightdm
 ```
 Al ejecutar Qtile no podremos abrir una terminal, ya que Qtile usa xterm, tendremos que modificar en Keys la terminal  
 
-# Instalacion paquetes necesarios para Qtile
+## Instalacion paquetes necesarios para Qtile
 Instalacion de algunos paquetes basicos para Qtile
 ```bash
 sudo pacman -S git base-devel pulseaudio pavucontrol xorg-xinit arandr kitty rofi feh picom volumeicon cbatticon udisks2 udiskie ntfs-3g vlc imv scrot unzip lxappearance wget network-manager-applet spotify-launcher
@@ -169,4 +176,25 @@ yay -S brave-bin telegram-desktop-bin visual-studio-code-bin autofirma configura
 ```
 ```bash
 yay -S evince netflix-bin whatsapp-for-linux  transmission-gtk apache-netbeans prospect-mail-bin dbeaver  gcalctool-oldgui gnome-calendar brightnessctl-git ms-office-online lightdm-webkit-theme-osmos
+```
+
+# Mi configuracion
+Si quereis tener la misma configuracion que uso
+```bash
+git clone git@github.com:jose-016al/Qtile.git
+```
+```bash
+cd Qtile
+```
+Copiamos el directorio .config
+```bash
+cp -r .config ~/
+```
+Copiamos el archivo xsession para que los cambios sean permanentes
+```bash
+cp -r .xsession ~/
+```
+Le damos permisos de ejecicion en caso de que no los tenga
+```bash
+chmod u+x .xsession
 ```
