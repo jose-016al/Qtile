@@ -11,7 +11,7 @@
     - [Instalacion del gestor de arranque](#instalacion-del-gestor-de-arranque)
     - [Antes de reiniciar](#antes-de-reiniar)
   - [Configuracion adicional de Arch Linux](#configuracion-adicional-de-arch-linux)
-- [Qtile](#qtile)1
+- [Qtile](#qtile)
   - [Instalacion de Qtile](#instalacion-de-qtile)
   - [Instalacion paquetes necesarios para Qtile](#instalacion-paquetes-necesarios-para-qtile)
   - [Mi configuracion](#mi-configuracion)
