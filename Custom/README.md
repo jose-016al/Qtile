@@ -1,12 +1,18 @@
-Estos ridrectorios deben copiarse en la sigueintes rutas 
+Estos directorios deben copiarse en la sigueintes rutas 
 ```bash
-sudo cp -r Material /usr/share/themes
+tar xf Kripton-v40.tar.xz
+```
+```bash
+sudo cp -r Kripton-v40 /usr/share/themes
 ```
 ```bash
 sudo cp -r Papirus /usr/share/icons
 ```
 ```bash
 sudo cp -r Breeze /usr/share/icons 
+```
+```bash
+sudo cp -r Ubuntu /usr/share/fonts/TTF
 ```
 
 Tambien podemos instalar la aplicacion 

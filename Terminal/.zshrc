@@ -62,6 +62,7 @@ alias actualiza="sudo pacman -Syyu"
 alias instalar="sudo pacman -S"
 alias desinstalar="sudo pacman -Rsn" 
 alias lista="sudo pacman -Qe"
+alias teclado="setxkbmap es"
 
 # exa & bat
 alias ll='lsd -lh --group-dirs=first'
@@ -77,13 +78,9 @@ alias change-java="sudo archlinux-java set java-11-openjdk"
 
 # Code
 alias qtile_status="code ~/.local/share/qtile/qtile.log"
-alias web="code ~/github/Docker/Web"
-alias .="code ."
 
 # Actualizaciones
-alias UpdateCode="yay -S visual-studio-code-bin"
-alias UpdateDbeaver="yay -S dbeaver"
-
+alias updateYay="yay -S visual-studio-code-bin"
  
 # Docker
 alias server="~/github/Docker/.server.bash"
