@@ -1,8 +1,6 @@
 from libqtile import widget
 from .theme import colors
 
-# Get the icons at https://www.nerdfonts.com/cheat-sheet (you need a Nerd Font)
-
 def base(fg='text', bg='dark'): 
     return {
         'foreground': colors[fg],
@@ -62,7 +60,6 @@ primary_widgets = [
     *workspaces(),
     separator(),
     powerline('color1', 'dark'),
-    icon(bg="color1", fontsize=17, text=' '), # Icon: nf-mdi-calendar_clock
     widget.Clock(**base(bg='color1'), format='%H:%M - %d/%m/%Y'),
     powerline('color2', 'color1'),
     icon(bg="color2", text=' '), # Icon: nf-fa-download

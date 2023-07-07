@@ -7,35 +7,35 @@ mod = "mod4"
 keys = [
     # ------------ Window Configs ------------
 
-    # Switch between windows in current stack pane
+    # Alternar entre ventanas en la ventana actual.
     Key([mod], "j", lazy.layout.down(), desc="Move focus dwown"),
     Key([mod], "k", lazy.layout.up(), desc="Move focus up"),
     Key([mod], "h", lazy.layout.left(), desc="Move focus to left"),
     Key([mod], "l", lazy.layout.right(), desc="Move focus to right"),
     
-    # Change window sizes (MonadTall)
+    # Cambiar tamaños de ventana (MonadTall)
     Key([mod, "shift"], "l", lazy.layout.grow()),
     Key([mod, "shift"], "h", lazy.layout.shrink()),
 
-    # Toggle floating
+    # Alternar ventana flotante
     Key([mod, "shift"], "f", lazy.window.toggle_floating()),
 
-    # Move windows up or down in current stack
+    # Mover las ventanas hacia arriba o hacia abajo en la pila actual
     Key([mod, "shift"], "j", lazy.layout.shuffle_down()),
     Key([mod, "shift"], "k", lazy.layout.shuffle_up()),
 
-    # Toggle between different layouts as defined below
+    # Alternar entre diferentes disposiciones según se define a continuación
     Key([mod], "Tab", lazy.next_layout()),
     Key([mod, "shift"], "Tab", lazy.prev_layout()),
 
-    # Kill window
+    # Cerrar ventana
     Key([mod], "w", lazy.window.kill()),
     
-    # Switch focus of monitors
+    # Cambiar el enfoque de los monitores
     Key([mod], "period", lazy.next_screen()),
     Key([mod], "comma", lazy.prev_screen()),
 
-    # Restart Qtile
+    # Reiniciar Qtile
     Key([mod, "control"], "r", lazy.restart()),
 
     Key([mod, "control"], "q", lazy.shutdown()),

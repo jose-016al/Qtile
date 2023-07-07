@@ -21,7 +21,7 @@ command = subprocess.run(
 
 if command.returncode != 0:
     error = command.stderr.decode("UTF-8")
-    logger.error(f"Failed counting monitors using {xrandr}:\n{error}")
+    logger.error(f"No pude contar los monitores. {xrandr}:\n{error}")
     connected_monitors = 1
 else:
     connected_monitors = int(command.stdout.decode("UTF-8"))
