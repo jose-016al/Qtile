@@ -1,4 +1,4 @@
-# Mi entorno de escriotiro Qtile con ArchLinux
+# ArchLinux & Qtile
 
 ![Qtile](.screenshots/qtile.png)
 
