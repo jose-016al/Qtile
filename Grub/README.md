@@ -13,5 +13,5 @@ GRUB_THEME="/usr/share/grub/themes/msi/theme.txt"
 ```
 Para finalizar tendremos que actualizar la configuracion de grub
 ```bash
-grub-mkconfig -o /boot/grub/grub.cfg
+sudo grub-mkconfig -o /boot/grub/grub.cfg
 ```
