@@ -67,6 +67,10 @@ Usaremos cfdisk por su comodidad
 ```bash
 cfdisk
 ```
+Para realizar un dual boot tendremos que crear una particion EFI 
+```bash
+mkfs.vfat -F 32 /dev/nvme0n1p6
+```
 Particionamos el disco usando cfdisk  
     - 150 MB - EFI SYSTEM  
     - 15 GB - SWAP  
@@ -86,6 +90,8 @@ Formateamos las particiones: /
 ```bash
 mkfs.ext4 /dev/sda3
 ```
+Una vez terminado el particionado del disco si queremos un dual boot podemos seguir la instlaacion con el script de archinstall  
+     
 Montamos los sistemas de archivos
 ```bash
 mount /dev/sda3 /mnt
